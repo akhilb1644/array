@@ -2,7 +2,8 @@ package variables;
 
 class array_java {
 	public static void main(String[] args) {
-		String[][] bjelbos = {
+		String[][] bjelbos = { /* House of Bjelbo. Birger Jarl was the man who expanded the expanded the settlment of Stockholm,
+		                          which eventually led it to become the Swedish capital.*/
 				{"Birger Jarl","Regent","Sweden"},
 				{"Valdemar I","King","Sweden"},
 				{"Magnus III","King","Sweden"},
@@ -15,7 +16,11 @@ class array_java {
 				{"Olaf IV","King","Norway"}
 		};
 		
-		String[][] estridsens = {
+		String[][] estridsens = { /* The House of Estridsen was a Danish dynasty that gave Denmark many kings for a long time(from 11th century to 14th century.
+		                             The House of Estridsen started with Sweyn II and ended with Queen Margaret I(you could argue Eric VII due to his adoption
+					     by Margaret, which is not included in the array). Margaret united the Scandinavian Kingdoms into the Kalmar Union. For a
+					     time, it was one of the European Great Powers of the Late Middle Ages, but Sweden left the Union a couple of times,, and
+					     permanently left the Union in 1521 and was left under the leadership of Gustav Vasa.*/
 				{"Sweyn II","King","Denmark"},
 				{"Harald III","King","Denmark"},
 				{"Canute IV","King","Denmark"},
@@ -43,6 +48,6 @@ class array_java {
 		};
 		
 		System.out.print(estridsens[12][0] + " of ");
-		System.out.print(estridsens[12][2] + " campaigned against the Wends.");
+		System.out.print(estridsens[12][2] + " campaigned against the Wends."); // Should print "Canute VI of Denmark campaigned against the Wends."
 	}
 }
