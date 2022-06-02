@@ -1,7 +1,6 @@
 package Matrix;
 
 // The following program will multiply the two three by three matricies
-
 class matrix_multiplication {
 	public static void main(String[] args) {
 		int[][] matrix_1 = {
