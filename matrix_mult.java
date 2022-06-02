@@ -1,5 +1,8 @@
 package Matrix;
 
+/* The answer I got from this program when multiplying the two matrices 
+was {58,64} in row 1, and {139,154} in the second row. */
+
 // The following program will multiply the two three by three matricies
 class matrix_multiplication {
 	public static void main(String[] args) {
